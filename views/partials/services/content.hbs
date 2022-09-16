@@ -1,0 +1,55 @@
+<section class="main-container" id="main-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="service-content">
+          <div class="heading">
+            <h2 class="content-title">{{service.name}}</h2>
+          </div>
+          <div class="text-block mrb-40">
+            <p>{{service.intro}}</p>
+          </div>
+          <div class="fw-single-image mrb-40">
+            <img class="img-fluid" src={{service.image}} alt="" />
+          </div>
+          <div class="text-block mrb-40">
+            <p> {{service.description}} </p>
+            <blockquote class="light">
+              <h4>{{service.quote.title}}</h4>
+              <p>{{service.quote.body}}</p>
+            </blockquote>
+          </div>
+          <div class="heading">
+            <h3 class="content-title-medium">{{service.conclusion.title}}</h3>
+          </div>
+          <div class="text-block">
+            <p>{{service.conclusion.body}}</p>
+          </div>
+        </div>
+        <div class="row mrb-60 mrt-60">
+          <div class="col-md-6">
+            <div class="heading mrb-20">
+              <h4 class="list-column-title">{{service.conclusion.left.title}}</h4>
+            </div>
+            <ul class="ts-list">
+              {{#each service.conclusion.left.items}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="heading mrb-20">
+              <h4 class="list-column-title">{{service.conclusion.right.title}}</h4>
+            </div>
+            <ul class="ts-list">
+              {{#each service.conclusion.right.items}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{> services/sidebar}}
+    </div>
+  </div>
+</section>

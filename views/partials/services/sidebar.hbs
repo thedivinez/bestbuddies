@@ -1,0 +1,28 @@
+<div class="col-lg-4">
+  <div class="sidebar sidebar-right">
+    <div class="widget no-padding no-border">
+      <ul class="service-menu">
+        <li><a href="/services/payroll">Payroll Services </a></li>
+        <li><a href="/services/industrial">Industrial Sector</a></li>
+        <li><a href="/services/recruitment">Recruitment Services </a></li>
+        <li><a href="/services/healthcare">Healthcare Professionals</a></li>
+      </ul>
+    </div>
+    <div class="widget no-padding no-border">
+      <h3 class="download-btn"><a href={{service.bronchure}}>
+          <span>Brand Brochure</span><i class="fa fa-download float-right"></i></a>
+      </h3>
+    </div>
+    <div class="widget no-padding testimonial-static">
+      <div class="quote-item quote-classic"><span class="quote-text faq-quote-text">{{service.testimonial.body}}</span>
+        <div class="quote-item-footer quote-footer-classic">
+          <img class="testimonial-thumb" src={{service.testimonial.image}} alt="testimonial" />
+          <div class="quote-item-info">
+            <p class="quote-author">{{service.testimonial.name}}</p><span class="quote-subtext">{{service.testimonial.occupation}}</span>
+          </div>
+        </div>
+      </div>
+      <!-- Quote item end-->
+    </div>
+  </div>
+</div>

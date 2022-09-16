@@ -1,18 +1,18 @@
 /*
-	Template Name: BiziPress - Finance, Consulting, Business HTML Template
-	Author: Tripples
-	Author URI: https://themeforest.net/user/tripples
-	Description: BiziPress - Finance, Consulting, Business HTML Template
-	Version: 1.0
+   Template Name: BiziPress - Finance, Consulting, Business HTML Template
+   Author: Tripples
+   Author URI: https://themeforest.net/user/tripples
+   Description: BiziPress - Finance, Consulting, Business HTML Template
+   Version: 1.0
 
-	1. Fixed header
-	2. Main slideshow
-	3. Site search
-	4. Owl Carousel
-	5. Video popup
-	6. Counter
-	7. Contact form
-	8. Back to top
+   1. Fixed header
+   2. Main slideshow
+   3. Site search
+   4. Owl Carousel
+   5. Video popup
+   6. Counter
+   7. Contact form
+   8. Back to top
   
 */
 
@@ -96,132 +96,132 @@ jQuery(function ($) {
          .styledmaptype(
             "shadeOfGrey", [
 
-               {
-                  "featureType": "administrative",
-                  "elementType": "geometry.stroke",
-                  "stylers": [{
-                     "color": "#fefefe"
-                  }, {
-                     "lightness": 17
-                  }, {
-                     "weight": 1.2
-                  }]
-               },
-               {
-                  "featureType": "administrative",
-                  "elementType": "geometry.fill",
-                  "stylers": [{
-                     "color": "#fefefe"
-                  }, {
-                     "lightness": 20
-                  }]
-               },
-               {
-                  "featureType": "transit",
-                  "elementType": "geometry",
-                  "stylers": [{
-                     "color": "#f2f2f2"
-                  }, {
-                     "lightness": 19
-                  }]
-               },
-               {
-                  "featureType": "all",
-                  "elementType": "labels.icon",
-                  "stylers": [{
-                     "visibility": "off"
-                  }]
-               },
-               {
-                  "featureType": "all",
-                  "elementType": "labels.text.fill",
-                  "stylers": [{
-                     "saturation": 36
-                  }, {
-                     "color": "#333333"
-                  }, {
-                     "lightness": 40
-                  }]
-               },
-               {
-                  "featureType": "all",
-                  "elementType": "labels.text.stroke",
-                  "stylers": [{
-                     "visibility": "on"
-                  }, {
-                     "color": "#ffffff"
-                  }, {
-                     "lightness": 16
-                  }]
-               },
-               {
-                  "featureType": "poi",
-                  "elementType": "geometry",
-                  "stylers": [{
-                     "color": "#f5f5f5"
-                  }, {
-                     "lightness": 21
-                  }]
-               },
-               {
-                  "featureType": "road.local",
-                  "elementType": "geometry",
-                  "stylers": [{
-                     "color": "#ffffff"
-                  }, {
-                     "lightness": 16
-                  }]
-               },
-               {
-                  "featureType": "road.arterial",
-                  "elementType": "geometry",
-                  "stylers": [{
-                     "color": "#ffffff"
-                  }, {
-                     "lightness": 18
-                  }]
-               },
-               {
-                  "featureType": "road.highway",
-                  "elementType": "geometry.stroke",
-                  "stylers": [{
-                     "color": "#ffffff"
-                  }, {
-                     "lightness": 29
-                  }, {
-                     "weight": 0.2
-                  }]
-               },
-               {
-                  "featureType": "road.highway",
-                  "elementType": "geometry.fill",
-                  "stylers": [{
-                     "color": "#ffffff"
-                  }, {
-                     "lightness": 17
-                  }]
-               },
-               {
-                  "featureType": "landscape",
-                  "elementType": "geometry",
-                  "stylers": [{
-                     "color": "#f5f5f5"
-                  }, {
-                     "lightness": 20
-                  }]
-               },
-               {
-                  "featureType": "water",
-                  "elementType": "geometry",
-                  "stylers": [{
-                     "color": "#e9e9e9"
-                  }, {
-                     "lightness": 17
-                  }]
-               }
-            ], {
-               name: "HQ"
+            {
+               "featureType": "administrative",
+               "elementType": "geometry.stroke",
+               "stylers": [{
+                  "color": "#fefefe"
+               }, {
+                  "lightness": 17
+               }, {
+                  "weight": 1.2
+               }]
+            },
+            {
+               "featureType": "administrative",
+               "elementType": "geometry.fill",
+               "stylers": [{
+                  "color": "#fefefe"
+               }, {
+                  "lightness": 20
+               }]
+            },
+            {
+               "featureType": "transit",
+               "elementType": "geometry",
+               "stylers": [{
+                  "color": "#f2f2f2"
+               }, {
+                  "lightness": 19
+               }]
+            },
+            {
+               "featureType": "all",
+               "elementType": "labels.icon",
+               "stylers": [{
+                  "visibility": "off"
+               }]
+            },
+            {
+               "featureType": "all",
+               "elementType": "labels.text.fill",
+               "stylers": [{
+                  "saturation": 36
+               }, {
+                  "color": "#333333"
+               }, {
+                  "lightness": 40
+               }]
+            },
+            {
+               "featureType": "all",
+               "elementType": "labels.text.stroke",
+               "stylers": [{
+                  "visibility": "on"
+               }, {
+                  "color": "#ffffff"
+               }, {
+                  "lightness": 16
+               }]
+            },
+            {
+               "featureType": "poi",
+               "elementType": "geometry",
+               "stylers": [{
+                  "color": "#f5f5f5"
+               }, {
+                  "lightness": 21
+               }]
+            },
+            {
+               "featureType": "road.local",
+               "elementType": "geometry",
+               "stylers": [{
+                  "color": "#ffffff"
+               }, {
+                  "lightness": 16
+               }]
+            },
+            {
+               "featureType": "road.arterial",
+               "elementType": "geometry",
+               "stylers": [{
+                  "color": "#ffffff"
+               }, {
+                  "lightness": 18
+               }]
+            },
+            {
+               "featureType": "road.highway",
+               "elementType": "geometry.stroke",
+               "stylers": [{
+                  "color": "#ffffff"
+               }, {
+                  "lightness": 29
+               }, {
+                  "weight": 0.2
+               }]
+            },
+            {
+               "featureType": "road.highway",
+               "elementType": "geometry.fill",
+               "stylers": [{
+                  "color": "#ffffff"
+               }, {
+                  "lightness": 17
+               }]
+            },
+            {
+               "featureType": "landscape",
+               "elementType": "geometry",
+               "stylers": [{
+                  "color": "#f5f5f5"
+               }, {
+                  "lightness": 20
+               }]
+            },
+            {
+               "featureType": "water",
+               "elementType": "geometry",
+               "stylers": [{
+                  "color": "#e9e9e9"
+               }, {
+                  "lightness": 17
+               }]
             }
+         ], {
+            name: "HQ"
+         }
          )
 
          .marker({
@@ -398,28 +398,6 @@ jQuery(function ($) {
 
    });
 
-
-
-   /* ----------------------------------------------------------- */
-   /*  Video popup
-   /* ----------------------------------------------------------- */
-   $(document).ready(function () {
-
-      $(".gallery-popup").colorbox({
-         rel: 'gallery-popup',
-         transition: "fade",
-         innerHeight: "500"
-      });
-
-      $(".popup").colorbox({
-         iframe: true,
-         innerWidth: 600,
-         innerHeight: 400
-      });
-
-   });
-
-
    /* ----------------------------------------------------------- */
    /*  Counter
    /* ----------------------------------------------------------- */
@@ -451,12 +429,12 @@ jQuery(function ($) {
             $message = $form.find('.form-message');
 
          $.post(action, {
-               name: $name.val(),
-               phone: $phone.val(),
-               email: $email.val(),
-               url: $url.val(),
-               message: $message.val()
-            },
+            name: $name.val(),
+            phone: $phone.val(),
+            email: $email.val(),
+            url: $url.val(),
+            message: $message.val()
+         },
             function (data) {
                $error.html(data);
                $error.slideDown('slow');
@@ -496,22 +474,22 @@ jQuery(function ($) {
 
    $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
-             $('#back-to-top').fadeIn();
+         $('#back-to-top').fadeIn();
       } else {
-             $('#back-to-top').fadeOut();
-            }
-      });
+         $('#back-to-top').fadeOut();
+      }
+   });
 
-      // scroll body to 0px on click
-      $('#back-to-top').on('click', function () {
-            $('#back-to-top').tooltip('hide');
-            $('body,html').animate({
-                  scrollTop: 0
-            }, 800);
-            return false;
-      });
-
+   // scroll body to 0px on click
+   $('#back-to-top').on('click', function () {
       $('#back-to-top').tooltip('hide');
+      $('body,html').animate({
+         scrollTop: 0
+      }, 800);
+      return false;
+   });
+
+   $('#back-to-top').tooltip('hide');
 
    /* ----------------------------------------------------------- */
    /*  Packery
